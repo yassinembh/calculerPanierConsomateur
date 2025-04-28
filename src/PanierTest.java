@@ -7,7 +7,7 @@ public class PanierTest {
     @Test
     public void testCalculerTotalPourClientParticulier() {
         ClientParticulier particulier = new ClientParticulier("1", "Dupont", "Jean");
-        Panier panier = new Panier(2, 1, 3); // 2 téléphones haut de gamme, 1 moyen de gamme, 3 laptops
+        Panier panier = new Panier(2, 1, 3);
 
         double total = panier.calculerTotal(particulier);
 

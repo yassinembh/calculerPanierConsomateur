@@ -1,6 +1,6 @@
 class ClientProfessionnel extends Client {
     private String raisonSociale;
-    private String numeroTVA; // optionnel
+    private String numeroTVA;
     private String siren;
     private double chiffreAffaires;
 

@@ -29,7 +29,7 @@ public class Main {
             String siren = scanner.nextLine();
             System.out.println("Entrez votre chiffre d'affaires annuel :");
             double chiffreAffaires = scanner.nextDouble();
-            scanner.nextLine(); // consommer la fin de ligne
+            scanner.nextLine();
 
             client = new ClientProfessionnel(id, raisonSociale, numeroTVA, siren, chiffreAffaires);
         } else {
